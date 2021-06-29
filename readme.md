@@ -21,3 +21,27 @@ PASSO 19: git merge htmlify
 PASSO 21: git merge styled
 	Hago un merge desde master.
 	No tengo ningún conflicto
+
+PASSO 25: git log --graph --pretty
+        Utilizo ese comando para crear un gráfico bonito
+
+PASSO 26: git merge --no-ff title
+        He hecho un merge de master a title.
+        Hubo conflicto pero con el --no-ff he forzado la resolución del conclifto
+
+PASSO 27: git reset HEAD~1
+        He vuelto a un commit anterior
+
+PASSO 28: git stash
+	Descarto los cambios
+
+PASSO 29: git branch -D title
+	Hay dos comandos, con -d y con -D. No he entendido la diferencia
+
+PASSO 30 a: git reflog
+	Compruebo  mi historial de hashes
+
+PASSO 30 b: git reset --hard f4c8272
+	Elijo el hash donde hay el commit "he añadido un título ridículo y lo reestablezco
+
+
